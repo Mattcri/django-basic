@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+  <div class="container pt-4 pt-lg-5">
+    <h1>Home Principal</h1>
+    <hr>
+    <div class="row mt-4 mt-md-5 align-items-md-center">
+      <div class="col col-md-6">
+        <h3>Title Enterprise</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat natus voluptatum maxime sunt tempora, laboriosam sint illum quis dolorem accusantium quos ab voluptates doloremque, delectus eius quisquam cum atque labore?</p>
+      </div>
+      <div class="col col-md-6 d-flex justify-content-center">
+        <img class="hero-img" src="{% static 'images/hurin.jpg' %}" alt="Hurin">
+      </div>
+    </div>
+    
+  </div>
+
+{% endblock %}

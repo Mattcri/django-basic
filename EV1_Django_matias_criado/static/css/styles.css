@@ -1,0 +1,47 @@
+hr {
+  border-top: 3px solid #11081F !important;
+  opacity: .75;
+}
+
+h1, h2, h3 {
+  color: #031633 !important;
+}
+
+footer {
+  background-color: #084298;
+}
+
+footer p {
+  color: #f9f9f9;
+  font-size: 1.25rem;
+}
+
+.hero-img {
+  max-height: 350px;
+}
+
+.img-company {
+  max-height: 550px;
+}
+
+@media (min-width: 576px) {
+  .info-list-company {
+    width: 75%;
+
+  }
+}
+
+@media (min-width: 768px) {
+  main {
+    min-height: calc(100vh - 142px);
+  }
+}
+
+.info-list-company:not(:last-of-type) {
+  margin-bottom: 1rem;
+}
+
+.img-avatar {
+  width: 90px;
+  height: 90px;
+}

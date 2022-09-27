@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+  <div class="container pt-4 pt-lg-5">
+    <h1>Coporative view</h1>
+    <hr>
+    <div class="row mt-4 mt-md-5">
+      <div class="col text-center">
+        <img class="img-company img-fluid" src="{% static 'images/company.webp' %}" alt="company">
+        <div class="mt-4 mb-5">
+          <div class="p-3 bg-info bg-opacity-10 border border-info rounded mx-sm-auto info-list-company">
+            Razón social: <span class="fw-bold">{{ social_reason }}</span>
+          </div>
+          <div class="p-3 bg-info bg-opacity-10 border border-info rounded mx-sm-auto info-list-company">
+            Dirección empresa: <span class="fw-bold">{{ direction }}</span>
+          </div>
+          <div class="p-3 bg-info bg-opacity-10 border border-info rounded mx-sm-auto info-list-company">
+            Correo contacto: <span class="fw-bold">{{ contact }}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+{% endblock %}

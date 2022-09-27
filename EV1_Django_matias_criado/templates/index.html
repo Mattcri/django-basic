@@ -1,0 +1,53 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <div class="container pt-4 pt-lg-5">
+    <h1>Home Enterprise</h1>
+
+    <div class="py-4 py-lg-5">
+      <div class="row">
+        <div class="col col-md-6 col-lg-4">
+          <div class="card">
+            <div class="card-header">
+              Home Principal
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Visit Home Principal</h5>
+              <p class="card-text">In this link you cant visit the Home Principal of project.</p>
+              <a href="{% url 'home-principal' %}" class="btn btn-primary">Go to link</a>
+            </div>
+          </div>
+        </div>
+        <div class="col col-md-6 col-lg-4">
+          <div class="card">
+            <div class="card-header">
+              Corporative Info
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Visit Corporative</h5>
+              <p class="card-text">In this link you cant visit the Corporative view of project.</p>
+              <a href="{% url 'corporative' %}" class="btn btn-primary">Go to link</a>
+            </div>
+          </div>
+        </div>
+        <div class="col col-md-6 col-lg-4">
+          <div class="card">
+            <div class="card-header">
+              Personal
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Visit Personal</h5>
+              <p class="card-text">In this link you cant visit the Personal Info view of project.</p>
+              <a href="{% url 'personal' %}" class="btn btn-primary">Go to link</a>
+            </div>
+          </div>
+        </div>
+
+
+
+      </div>
+    </div>
+
+  </div>
+
+{% endblock %}
